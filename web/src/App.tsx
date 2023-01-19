@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
-import { Habit } from './components/Habit'
+import { Habit } from './components/habit/Habit'
 
 function App() {
   const [count, setCount] = useState(0)
