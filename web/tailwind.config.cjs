@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     './src/**/*.tsx',
+    './src/components/*.tsx',
     './index.html'
   ],
   theme: {
@@ -9,7 +10,7 @@ module.exports = {
       colors: {
         background: '#09090A'
       },
-      gridTemplateColumns: {
+      gridTemplateRows: {
         7: 'repeat(7, minmax(0, 1fr))'
       }
     },
